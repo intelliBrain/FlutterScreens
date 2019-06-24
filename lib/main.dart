@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 //import 'package:flutter_login_screens/misc/rating.dart';
-import 'package:flutter_login_screens/login_screen_3.dart';
+import 'package:flutter_login_screens/loaders/flip_loader.dart';
 
 void main() => runApp(new MyApp());
 
@@ -23,8 +23,8 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: Container(
-        child: LoginScreen3(),
+      body: Center(
+        child: FlipLoader(),
       ),
     );
   }
